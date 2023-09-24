@@ -11,4 +11,8 @@ public class MainController {
 		return "Hi Arijit. Application is running ....";
 	}
 	
+	@GetMapping("/test1")
+	public String getVal1() {
+		return "Hi Sananda. Application is running ....";
+	}
 }
