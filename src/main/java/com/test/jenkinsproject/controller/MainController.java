@@ -8,7 +8,7 @@ public class MainController {
 
 	@GetMapping("/test")
 	public String getVal() {
-		return "Hi Arijit. Application is running ";
+		return "Hi Arijit. Application is running ....";
 	}
 	
 }
